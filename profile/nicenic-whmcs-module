@@ -1,0 +1,46 @@
+# Nicenic WHMCS Registrar Module
+
+This repository contains the official **WHMCS integration module** for **Nicenic.NET**, an **ICANN-accredited domain registrar**.
+
+It allows WHMCS users to register, renew, transfer, and manage domains directly through Nicenic’s API.
+
+
+### 🌐 API Endpoint
+- Base URL: [https://nicenic.net/reseller/apiv2.php](https://nicenic.net/reseller/apiv2.php)  
+- WHMCS Integration Link: [https://nicenic.net/reseller/apiv2.php?whmcs=1&api_type=whmcs](https://nicenic.net/reseller/apiv2.php?whmcs=1&api_type=whmcs)
+
+### ⚙️ Features
+- Domain registration, transfer, renewal  
+- Contact modification & WHOIS privacy  
+- DNS and nameserver management  
+- Synchronization with Nicenic system  
+- Multi-currency and reseller balance support
+
+### 🚀 Installation Guide
+1. Download or clone this repository:
+   ```bash
+   git clone https://github.com/nicenic-official/nicenic-whmcs-module.git
+
+/modules/registrars/nicenic/
+
+In WHMCS Admin → System Settings → Domain Registrars, activate Nicenic.
+
+Enter your API credentials and enable test/live mode.
+
+Test domain operations before going live.
+
+🧩 Resources
+
+Nicenic API Documentation
+
+Reseller Integration Guide
+
+Reseller API
+
+📞 Support
+
+📧 support@nicenic.net
+
+🌐 https://www.nicenic.net
+
+© Nicenic.NET — Official WHMCS Registrar Module
