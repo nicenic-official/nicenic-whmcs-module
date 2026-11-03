@@ -1,6 +1,6 @@
 # NiceNIC WHMCS Domain Registrar Module
 
-**Official ICANN Registrar Module for WHMCS with 0% Fee Crypto Billing**
+**Official ICANN Registrar Module for WHMCS with a 0% NiceNIC Crypto Payment Fee**
 
 Connect your WHMCS store to NiceNIC to register, renew, transfer and manage customer domains through the NiceNIC Domain API.
 
@@ -8,7 +8,7 @@ NiceNIC is an ICANN-accredited domain registrar serving customers since 2006, IA
 
 [Create a NiceNIC Account](https://nicenic.com/user/register.php) · [Module Downloads](https://nicenic.com/reseller/apiv2.php?api_type=whmcs&whmcs=1) · [Reseller Program](https://nicenic.com/reseller/) · [Domain API](https://nicenic.com/reseller/apiv2.php)
 
-**About crypto billing:** The 0% fee refers to NiceNIC’s own crypto processing fee when funding your NiceNIC account. Payment-provider, wallet and network fees may apply. Your WHMCS customer checkout uses the payment gateways you configure separately. See [Payment Options](https://nicenic.com/payment-options.php) for current costs.
+**About crypto billing:** 0% NiceNIC crypto payment fee (third-party payment provider or blockchain network fees may apply depending on the selected payment rail). This applies to funding your NiceNIC account. Your WHMCS customer checkout uses the payment gateways you configure separately. See [Payment Options](https://nicenic.com/payment-options.php) for current costs.
 
 ## Contents
 
@@ -284,7 +284,7 @@ Crypto funding supplies the NiceNIC balance used for eligible registrar operatio
 5. Complete payment and wait for account credit.
 6. Confirm the available balance before submitting paid domain operations.
 
-NiceNIC adds a **0% processing fee**. The online crypto provider currently charges a **1.5% service fee**, and wallet or blockchain fees may apply. Consult the [current payment information](https://nicenic.com/payment-options.php) before paying.
+0% NiceNIC crypto payment fee (third-party payment provider or blockchain network fees may apply depending on the selected payment rail). Consult the [current payment information](https://nicenic.com/payment-options.php) before paying.
 
 Payment from a customer to your WHMCS store does not automatically top up your NiceNIC account. Monitor the registrar balance as part of daily operations.
 
@@ -370,7 +370,7 @@ This changelog separates documentation work from verified software releases.
 * Added usage walkthroughs with verification steps.
 * Added production rollout, upgrade and rollback procedures.
 * Added troubleshooting and support-report requirements.
-* Clarified the scope of 0% NiceNIC crypto processing fees.
+* Standardized the 0% NiceNIC crypto payment fee wording and removed the fixed third-party service fee.
 
 **Release verification pending**
 
